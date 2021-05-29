@@ -1,10 +1,10 @@
-QT       += core gui widgets
+QT += core gui widgets testlib
 
 SOURCES += \
     Matrix.tpp \
+    test/TestMain.cpp \
     test/TestMatrix.cpp \
     Tools.cpp \
-    main.cpp \
     mainwindow.cpp
 
 HEADERS += \
